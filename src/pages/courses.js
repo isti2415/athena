@@ -68,7 +68,7 @@ export default function Courses() {
             Why Freelancers and Beginners Choose Athena Empowerment Hub
           </span>
           <div className="stats glass w-full stats-vertical lg:stats-horizontal shadow mt-4">
-            <div className="stat">
+            <div className="stat font-bold">
               <div className="stat-figure text-secondary text-3xl text-3xl">
                 <i className="fas fa-tools inline-block"></i>
               </div>
@@ -79,7 +79,7 @@ export default function Courses() {
                 Learn skills that matter in the real world.
               </div>
             </div>
-            <div className="stat">
+            <div className="stat font-bold">
               <div className="stat-figure text-secondary text-3xl">
                 <i className="fas fa-clock inline-block"></i>
               </div>
@@ -88,7 +88,7 @@ export default function Courses() {
                 Fit learning into your busy schedule.
               </div>
             </div>
-            <div className="stat">
+            <div className="stat font-bold">
               <div className="stat-figure text-secondary text-3xl">
                 <i className="fas fa-users inline-block"></i>
               </div>
@@ -99,7 +99,7 @@ export default function Courses() {
                 Connect, collaborate, and grow together.
               </div>
             </div>
-            <div className="stat">
+            <div className="stat font-bold">
               <div className="stat-figure text-secondary text-3xl">
                 <i className="fas fa-dollar-sign inline-block"></i>
               </div>
