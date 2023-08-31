@@ -54,10 +54,10 @@ export default function Nav() {
                 <a href={option.link}>{option.name}</a>
               </li>
             ))}
-            <button className="mt-2 btn btn-sm join-item btn-outline btn-primary">
+            <button className="mt-2 btn btn-sm join-item btn-outline btn-primary font-bold">
               Register
             </button>
-            <button className="mt-2 btn btn-sm join-item btn-outline btn-primary">
+            <button className="mt-2 btn btn-sm join-item btn-outline btn-primary font-bold">
               Login
             </button>
           </ul>
@@ -66,17 +66,17 @@ export default function Nav() {
           <ul className="menu flex flex-row items-center">
             {navOptions.map((option) => (
               <li key={option}>
-                <a href={option.link} className="text-md">
+                <a href={option.link} className="text-md font-bold">
                   {option.name}
                 </a>
               </li>
             ))}
             <div className="divider divider-horizontal"></div>
             <div className="join">
-              <button className="btn btn-sm join-item btn-outline btn-primary">
+              <button className="btn btn-sm join-item btn-outline btn-primary font-bold">
                 Register
               </button>
-              <button className="btn btn-sm join-item btn-outline btn-primary">
+              <button className="btn btn-sm join-item btn-outline btn-primary font-bold">
                 Login
               </button>
             </div>

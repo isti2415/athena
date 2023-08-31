@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="hero flex flex-col items-center ms:max-h-screen py-4 gap-24">
       <div className="hero-content flex-col lg:flex-row">
-        <img src="/hero.png" className="max-w-sm rounded-lg shadow-2xl" />
+        <img src="/hero.png" className="max-w-sm rounded-lg" />
         <div>
           <h1 className="text-5xl font-bold">Athena Empowerment Hub</h1>
           <p className="py-6">
@@ -14,7 +14,7 @@ export default function Hero() {
           <button className="btn btn-primary">Join Now</button>
         </div>
       </div>
-      <div className="stats bg-neutral w-full md:w-[80%] stats-vertical lg:stats-horizontal">
+      <div className="stats bg-base-100 w-full md:w-[80%] stats-vertical lg:stats-horizontal">
         <div className="stat">
           <div className="stat-figure text-secondary">
             <svg
@@ -79,7 +79,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="join gap-8 flex flex-col md:flex-row md:w-[80%]">
-        <div className="card lg:card-side bg-neutral shadow-xl">
+        <div className="card lg:card-side bg-base-100 shadow-xl">
           <figure className="md:w-1/2 p-2">
             <img
               src="/logo.png"
@@ -94,7 +94,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="card lg:card-side bg-neutral shadow-xl">
+        <div className="card lg:card-side bg-base-100 shadow-xl">
           <figure className="md:w-1/2 p-2">
             <img
               src="/logo.png"
@@ -109,7 +109,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="card lg:card-side bg-neutral shadow-xl">
+        <div className="card lg:card-side bg-base-100 shadow-xl">
           <figure className="md:w-1/2 p-2">
             <img
               src="/logo.png"

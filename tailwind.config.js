@@ -18,9 +18,9 @@ module.exports = {
 
           accent: "#1fb2a6",
 
-          neutral: "#2a323c",
+          neutral: "#f3f4f6",
 
-          "base-100": "#f3f4f6",
+          "base-100": "white",
 
           info: "#3abff8",
 
