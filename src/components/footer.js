@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer bg-base-200 mt-32 p-10 text-base-content">
         <div>
-          <Image src="/vertical-full.png" alt="logo" height={160} width={120} />
+          <Image src="/final.png" alt="logo" height={160} width={160} />
         </div>
         <div>
           <span className="footer-title">Services</span>

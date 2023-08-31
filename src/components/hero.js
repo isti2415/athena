@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="hero flex flex-col items-center ms:max-h-screen py-4 gap-24">
       <div className="hero-content flex-col lg:flex-row">
-        <img src="/hero.png" className="max-w-sm rounded-lg" />
+        <img src="/hero.svg" className="max-w-sm rounded-lg" />
         <div>
           <h1 className="text-5xl font-bold">Athena Empowerment Hub</h1>
           <p className="py-6">

@@ -12,7 +12,7 @@ module.exports = {
     themes: [
       {
         light: {
-          primary: "#B0B4F3",
+          primary: "#DDA5F7",
 
           secondary: "#d926a9",
 
@@ -20,7 +20,7 @@ module.exports = {
 
           neutral: "#f3f4f6",
 
-          "base-100": "white",
+          "base-100": "#F8F8F8",
 
           info: "#3abff8",
 
@@ -31,7 +31,7 @@ module.exports = {
           error: "#f87272",
         },
         dark: {
-          primary: "#B0B4F3",
+          primary: "#DDA5F7",
 
           secondary: "#d926a9",
 

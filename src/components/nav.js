@@ -18,13 +18,14 @@ export default function Nav() {
   return (
     <div className="navbar px-8">
       <div className="navbar-start">
-        <a href="/" className="navbar-brand">
+        <a href="/" className="navbar-brand flex items-center gap-2">
           <Image
-            src="/horizontal-full.png"
+            src="/final.png"
             alt="logo"
-            width={150}
-            height={60}
+            width={50}
+            height={50}
           />
+          <span className="text-2xl font-bold text-secondary">Athena Empowerment Hub</span>
         </a>
       </div>
       <div className="navbar-end">
@@ -54,10 +55,10 @@ export default function Nav() {
                 <a href={option.link}>{option.name}</a>
               </li>
             ))}
-            <button className="mt-2 btn btn-sm join-item btn-outline btn-primary font-bold">
+            <button className="mt-2 btn btn-sm join-item btn-outline btn-secondary font-bold">
               Register
             </button>
-            <button className="mt-2 btn btn-sm join-item btn-outline btn-primary font-bold">
+            <button className="mt-2 btn btn-sm join-item btn-outline btn-secondary font-bold">
               Login
             </button>
           </ul>
@@ -73,10 +74,10 @@ export default function Nav() {
             ))}
             <div className="divider divider-horizontal"></div>
             <div className="join">
-              <button className="btn btn-sm join-item btn-outline btn-primary font-bold">
+              <button className="btn btn-sm join-item btn-outline btn-secondary font-bold">
                 Register
               </button>
-              <button className="btn btn-sm join-item btn-outline btn-primary font-bold">
+              <button className="btn btn-sm join-item btn-outline btn-secondary font-bold">
                 Login
               </button>
             </div>
