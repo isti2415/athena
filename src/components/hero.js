@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="hero-content flex-col lg:flex-row">
         <img src="/hero.svg" className="max-w-sm rounded-lg" />
         <div>
-          <h1 className="text-5xl font-bold">Athena Empowerment Hub</h1>
+          <h1 className="text-5xl font-bold">Learn, Earn, Empower</h1>
           <p className="py-6">
             Elevate your skills, unleash your potential. Athena Empowerment Hub
             offers training and freelance opportunities in various domains like

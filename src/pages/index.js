@@ -5,7 +5,7 @@ import Footer from "@/components/footer.js";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col justify-between dark:bg-gradient-to-t dark:to-gray-800 dark:from-primary bg-gradient-to-t from-primary to-neutral">
+    <div className="min-h-screen flex flex-col justify-between">
       <Nav />
       <Hero />
       <Footer />

@@ -7,8 +7,16 @@ export default function Nav() {
       link: "/",
     },
     {
-      name: "Portfolio",
-      link: "/portfolio",
+      name: "Learn",
+      link: "/courses",
+    },
+    {
+        name: "Earn",
+        link: "/marketplace",
+    },
+    {
+        name: "Empower",
+        link: "/empower",
     },
     {
       name: "About",
@@ -19,13 +27,10 @@ export default function Nav() {
     <div className="navbar px-8">
       <div className="navbar-start">
         <a href="/" className="navbar-brand flex items-center gap-2">
-          <Image
-            src="/final.png"
-            alt="logo"
-            width={50}
-            height={50}
-          />
-          <span className="text-2xl font-bold text-secondary">Athena Empowerment Hub</span>
+          <Image src="/logo.png" alt="logo" width={50} height={50} />
+          <span className="text-2xl font-bold text-secondary">
+            Athena Empowerment Hub
+          </span>
         </a>
       </div>
       <div className="navbar-end">
@@ -55,12 +60,18 @@ export default function Nav() {
                 <a href={option.link}>{option.name}</a>
               </li>
             ))}
-            <button className="mt-2 btn btn-sm join-item btn-outline btn-secondary font-bold">
-              Register
-            </button>
-            <button className="mt-2 btn btn-sm join-item btn-outline btn-secondary font-bold">
-              Login
-            </button>
+            <a
+                href="/register"
+                className="mt-2 btn btn-sm join-item btn-outline btn-secondary font-bold"
+              >
+                Register
+              </a>
+              <a
+                href="/login"
+                className="mt-2 btn btn-sm join-item btn-outline btn-secondary font-bold"
+              >
+                Login
+              </a>
           </ul>
         </div>
         <div className="hidden lg:block">
@@ -74,12 +85,18 @@ export default function Nav() {
             ))}
             <div className="divider divider-horizontal"></div>
             <div className="join">
-              <button className="btn btn-sm join-item btn-outline btn-secondary font-bold">
+              <a
+                href="/register"
+                className="btn btn-sm join-item btn-outline btn-secondary font-bold"
+              >
                 Register
-              </button>
-              <button className="btn btn-sm join-item btn-outline btn-secondary font-bold">
+              </a>
+              <a
+                href="/login"
+                className="btn btn-sm join-item btn-outline btn-secondary font-bold"
+              >
                 Login
-              </button>
+              </a>
             </div>
           </ul>
         </div>
